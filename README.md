@@ -68,7 +68,11 @@ Install this project with:
 
 ### Usage
 
-To run the project, start the html file on live server or run normally from local directory
+To run the project, run the following command:
+
+```sh
+  npm start -- --port 3002
+```
 
 ### Run tests
 
