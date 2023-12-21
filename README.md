@@ -14,16 +14,17 @@
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🔭 Rails API Link](#rails-link)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 REACT-TODO-APP<a name="about-project"></a>
+# 📖 HELLO-REACT-FRONT-END<a name="about-project"></a>
 
-This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML CSS, Javascript and webpack.
+The 'hello-react-front-end' repository is a React application initialized with Git. It includes the App and Greeting components, react-router setup, and Redux integration. The store, action, and reducer are configured to fetch a random greeting from the Rails API using Redux Thunk, and the greeting is displayed in the Greeting component.
 
-**[React-Todo-app]** is an HTML, CSS and Javascript project
+**[HELLO-REACT-FRONT-END]** is an HTML, CSS and Javascript project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,8 +34,8 @@ This webpage shows a sneak peek into the project I have developed and deployed, 
 - Webpack
 
 ### Key Features <a name="key-features"></a>
-- **Basic maths Calculations**
-- **Well structured UI**
+- **React Router Integration**
+- **Redux State Management**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -52,8 +53,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd math-magicians
-  git clone https://github.com/ngalamac/math-magicians
+  cd hello-react-front-end
+  git clone https://github.com/ngalamac/hello-react-front-end.git
 ```
 
 ### Install
@@ -61,7 +62,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd math-magicians
+  cd hello-react-front-end
   npm install
 ```
 
@@ -71,10 +72,8 @@ To run the project, start the html file on live server or run normally from loca
 
 ### Run tests
 
-To run tests, run the following command:
-```sh
-  npx hint .
-  npx stylelint "**/*.{css,scss}"
+```
+No tests for this project yet
 ```
 
 ### Deployment
@@ -99,8 +98,11 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- A more improved user interface
-- user dashboard
+- User Interface Enhancement
+- User Preferences
+
+## 🔭 Rails Api Link <a name="rails-link"></a>
+Please find the link to the rails api [here](https://github.com/ngalamac/hello-rails-back-end)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
